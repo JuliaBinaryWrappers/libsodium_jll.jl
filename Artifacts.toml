@@ -1,113 +1,115 @@
 [[libsodium]]
-arch = "i686"
-git-tree-sha1 = "f62db4acc82b675c654424ef76a99e440f64d5fe"
-libc = "musl"
+arch = "aarch64"
+git-tree-sha1 = "8e3089dc047c3972ded087ab655c74ff5fea3282"
+libc = "glibc"
 os = "linux"
 
     [[libsodium.download]]
-    sha256 = "27f2b9c11f2af14c9e78a43dd47840f92d3dd34b073d3579958c4f8bee70dedc"
-    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.18+1/libsodium.v1.0.18.i686-linux-musl.tar.gz"
+    sha256 = "1e62313090796e38a37dac2c5c4e267aefbbcd99cc283c99e669113aec5e3538"
+    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.19+0/libsodium.v1.0.19.aarch64-linux-gnu.tar.gz"
 [[libsodium]]
 arch = "aarch64"
-git-tree-sha1 = "79d9648f3c394c893138786873b7fa74dbd75596"
+git-tree-sha1 = "dcd05621f1e64bb501cccdc9e0fdda7c83198645"
 libc = "musl"
 os = "linux"
 
     [[libsodium.download]]
-    sha256 = "48042de76b0dd3fb52ac95227e14b3e1839f095bee8742dc7e192313d731e361"
-    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.18+1/libsodium.v1.0.18.aarch64-linux-musl.tar.gz"
-[[libsodium]]
-arch = "i686"
-git-tree-sha1 = "8a779acbccd1b19077cd85da76220f521615cec0"
-os = "windows"
-
-    [[libsodium.download]]
-    sha256 = "b6bf73d69fa44461c223c9c28a0cea0fe984c61c07ed87b7f44e17184412a7e1"
-    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.18+1/libsodium.v1.0.18.i686-w64-mingw32.tar.gz"
-[[libsodium]]
-arch = "x86_64"
-git-tree-sha1 = "8718acede03acc3fce73f98050c281e255429642"
-os = "windows"
-
-    [[libsodium.download]]
-    sha256 = "586f41c53fa28601e6d80f8b57411dc0097bf03cf1b1f51afa49e5626de4575c"
-    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.18+1/libsodium.v1.0.18.x86_64-w64-mingw32.tar.gz"
+    sha256 = "f251bdfbf3335d12769bf2882899f038c6c9d4c5b8667183e29a9d0c3b9014b2"
+    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.19+0/libsodium.v1.0.19.aarch64-linux-musl.tar.gz"
 [[libsodium]]
 arch = "armv7l"
-git-tree-sha1 = "1e4a1361e386e37462e827cc4117ad0bce9914bd"
+call_abi = "eabihf"
+git-tree-sha1 = "2541afd102a8b09a61e105a98b2566c864a590a3"
 libc = "glibc"
 os = "linux"
 
     [[libsodium.download]]
-    sha256 = "a497bc786441b5f002422c12d69ac3cb96572fc218a4205b912c0c86ebdfd553"
-    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.18+1/libsodium.v1.0.18.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "1e617945e8181fdbf8dbbbed78d888749ea662c1af9162b213d239fd19c59d59"
+    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.19+0/libsodium.v1.0.19.armv7l-linux-gnueabihf.tar.gz"
 [[libsodium]]
 arch = "armv7l"
-git-tree-sha1 = "e79711029639b2633bb5c9d78b946d9761bc9328"
+call_abi = "eabihf"
+git-tree-sha1 = "9a4908b657169d275756f07357e8a6c4228d4966"
 libc = "musl"
 os = "linux"
 
     [[libsodium.download]]
-    sha256 = "ea14a9905615b52485e5aac60315222e75f5bce485f47bf19dd8eda11e79ce3c"
-    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.18+1/libsodium.v1.0.18.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "33f74d9e772b8b40b54ec0de9b078319f79c806610d8cfda1d7328d435987f9c"
+    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.19+0/libsodium.v1.0.19.armv7l-linux-musleabihf.tar.gz"
 [[libsodium]]
 arch = "i686"
-git-tree-sha1 = "8817ab05b7d8091f4f2f54307fef1d27c92b67af"
+git-tree-sha1 = "175d9a69b1f3c1c6eda5766401f7759757804fed"
 libc = "glibc"
 os = "linux"
 
     [[libsodium.download]]
-    sha256 = "1c2221fd24e103b00810efd5cc6cdc1257de6e825064d58097389a0f0caea7ac"
-    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.18+1/libsodium.v1.0.18.i686-linux-gnu.tar.gz"
+    sha256 = "51184df00053aaac30d939e95eba0feb5341c816b602ad8bcef2fcc06791064b"
+    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.19+0/libsodium.v1.0.19.i686-linux-gnu.tar.gz"
 [[libsodium]]
-arch = "x86_64"
-git-tree-sha1 = "53913caaf6afb8d02133a1fdc6eec5112c9f7be1"
-libc = "glibc"
+arch = "i686"
+git-tree-sha1 = "9d758a1e1d3230a9b474cf5d7dbfeb0bbac177e7"
+libc = "musl"
 os = "linux"
 
     [[libsodium.download]]
-    sha256 = "997e80e7180be64f9c9e057ead0a970511fcc0ee7b88dc63694f97d0a778fc8b"
-    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.18+1/libsodium.v1.0.18.x86_64-linux-gnu.tar.gz"
+    sha256 = "ef42a16e94f296a4f8bbfc576fe1fc18b75a4f46178305565d463b441838a907"
+    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.19+0/libsodium.v1.0.19.i686-linux-musl.tar.gz"
+[[libsodium]]
+arch = "i686"
+git-tree-sha1 = "7e54de4eaf45b72ac408868dac9201f97b7a9214"
+os = "windows"
+
+    [[libsodium.download]]
+    sha256 = "4f866b41c0fe5024d5cc0502bde38424a190829462f86f35c28116b3983fa73a"
+    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.19+0/libsodium.v1.0.19.i686-w64-mingw32.tar.gz"
 [[libsodium]]
 arch = "powerpc64le"
-git-tree-sha1 = "ee3387cf04035970a722cc9fac20530f66f51608"
+git-tree-sha1 = "68f949183d37491786c5adc2e2c3979951be6ef3"
 libc = "glibc"
 os = "linux"
 
     [[libsodium.download]]
-    sha256 = "621d151bc05cbc916dda3948331f0c3ddc8104d4481737d959ffd2b4f655c750"
-    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.18+1/libsodium.v1.0.18.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "85478394120f4584bf902c17a79cfe8104d43533cf76a8f43116c06756d7f131"
+    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.19+0/libsodium.v1.0.19.powerpc64le-linux-gnu.tar.gz"
 [[libsodium]]
 arch = "x86_64"
-git-tree-sha1 = "d9060da25204d407aaf9d89ae67a161d7e3a27e8"
+git-tree-sha1 = "bf831c88a22c02156d5b4302268e547864f0a19e"
 os = "macos"
 
     [[libsodium.download]]
-    sha256 = "e2ac585b20873df5ed24e7ce417c0d88bc410afdac01b9082309a6435cc76757"
-    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.18+1/libsodium.v1.0.18.x86_64-apple-darwin14.tar.gz"
+    sha256 = "b0cf149d088935514d44970527bae775dde0045d535355897bf0029b9dd39c09"
+    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.19+0/libsodium.v1.0.19.x86_64-apple-darwin.tar.gz"
 [[libsodium]]
-arch = "aarch64"
-git-tree-sha1 = "bf78ae0cfdfdc5291acacc46d17f08a769535a15"
+arch = "x86_64"
+git-tree-sha1 = "30680a637e165a5a1733175b03449eb8f7c2fe4b"
 libc = "glibc"
 os = "linux"
 
     [[libsodium.download]]
-    sha256 = "6c2b83befd8ae3d3f9d3555d1ddf08323becf4e183981941511fd32641a082b0"
-    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.18+1/libsodium.v1.0.18.aarch64-linux-gnu.tar.gz"
+    sha256 = "37e8401e83386fb719f9867381842fedb3fa7edcf0f4af6d87d6441ca7d277f9"
+    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.19+0/libsodium.v1.0.19.x86_64-linux-gnu.tar.gz"
 [[libsodium]]
 arch = "x86_64"
-git-tree-sha1 = "4b0fefebe91f6a60a5488d2602c42a57e346c892"
-os = "freebsd"
-
-    [[libsodium.download]]
-    sha256 = "aa222da8f597fa5ab108e9897c5ce26db6aaa0dea3374921d535ff2695541a55"
-    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.18+1/libsodium.v1.0.18.x86_64-unknown-freebsd11.1.tar.gz"
-[[libsodium]]
-arch = "x86_64"
-git-tree-sha1 = "11f4ff8726890b7c4d6124b1e76431497449916b"
+git-tree-sha1 = "bf048ffc93c87897572e4cd84dbf55b0c11f524b"
 libc = "musl"
 os = "linux"
 
     [[libsodium.download]]
-    sha256 = "42a47b81c5529a11216fe1d38c5a2a87a37d4137f856fc7a5ebcf6b111e2686e"
-    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.18+1/libsodium.v1.0.18.x86_64-linux-musl.tar.gz"
+    sha256 = "9e05c53d015fb0d481469551e9e5cf96a2bda1f9ca7f38e69ff8b174d52d383d"
+    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.19+0/libsodium.v1.0.19.x86_64-linux-musl.tar.gz"
+[[libsodium]]
+arch = "x86_64"
+git-tree-sha1 = "3f59cc6c747e98e0c6408843336a4de7f12bfdba"
+os = "freebsd"
+
+    [[libsodium.download]]
+    sha256 = "d4155382943131c2824958a6ab1b3a1ac8ea64cd393c80b3ba5eb23ed1fc6e1d"
+    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.19+0/libsodium.v1.0.19.x86_64-unknown-freebsd.tar.gz"
+[[libsodium]]
+arch = "x86_64"
+git-tree-sha1 = "4a425e4fe5cd2442a5713cf7cd5633d4937195d1"
+os = "windows"
+
+    [[libsodium.download]]
+    sha256 = "1fda45c546d179c84c8cfb4142490d7909f78a1accca9ab3d5cc13e6ed3de99f"
+    url = "https://github.com/JuliaBinaryWrappers/libsodium_jll.jl/releases/download/libsodium-v1.0.19+0/libsodium.v1.0.19.x86_64-w64-mingw32.tar.gz"
